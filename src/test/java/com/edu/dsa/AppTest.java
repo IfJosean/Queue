@@ -15,7 +15,7 @@ public class AppTest extends TestCase
      * @param testName name of the test case
      */
 
-    public
+    public void pushTest()
 
 
     public AppTest( String testName )
