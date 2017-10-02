@@ -1,5 +1,5 @@
 package com.edu.dsa.Modelo;
-package com.edu.dsa.s2;
+
 
 import sun.misc.*;
 import java.util.EmptyQueueException;
@@ -27,7 +27,7 @@ public class QueueImpl <E> extends Queue <E>{
 
         if (i == 0)
             throw new EmptyQueueException();
-        return null;
+            return this.el[--this.i];
     }
 
     public int size() {
