@@ -10,6 +10,7 @@ import java.util.EmptyQueueException;
 public class QueueImpl <E> extends Queue <E>{
 
     private E[] el;
+    private E[] ek;
     private int i=0;
 
     public QueueImpl (int q)
