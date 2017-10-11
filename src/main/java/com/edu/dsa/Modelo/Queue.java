@@ -8,6 +8,7 @@ public interface Queue <E> {
      void push (E e);
     public E pop();
     public int size();
+    public Queue comp();
 
 
 }
