@@ -9,6 +9,7 @@ public interface Queue <E> {
     public E pop();
     public int size();
     public Queue comparer();
+    public Queue delete ();
 
 
 }
