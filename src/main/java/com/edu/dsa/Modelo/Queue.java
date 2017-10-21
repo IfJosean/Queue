@@ -11,5 +11,10 @@ public interface Queue <E> {
     public Queue comparer();
     public Queue delete ();
 
+    int i,f,g;
+    for(int=0,i==size,i++)
+    {
+
+    }
 
 }
